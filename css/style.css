@@ -1,0 +1,92 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #5c5b5b;
+ 
+    
+}
+body {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*
+    HEADER
+ */
+ header h1, .header__logo {
+    text-decoration: none;
+    margin-top: 13px;
+ }
+header{
+    background: #262b30;
+    height: 70px;
+}
+header *{
+    color: #ffffff;
+}
+
+header h1 a{
+    color: #ffffff;
+}
+header h1 a:hover{
+    color: #ffffff;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+header ul li{
+    float: left;
+    position: relative;
+}
+header ul li a{
+    display: block;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 22px;
+}
+header ul li a:hover {
+    background: #07bcc2;
+    transition: 0.5s;
+    color:#000000;
+}
+header ul li ul {
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    width: 180px;
+    display: none;
+    z-index: 111;
+}
+header ul li:hover ul{
+    display: block;
+}
+header ul li ul li {
+    width: 100%;
+}
+header ul li ul li a {
+    padding: 10px;
+    margin-left: 43px;
+    background: white;
+    color: #008489;
+}
+
+main {
+    background-color: #22272b  ;
+}
