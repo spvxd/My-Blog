@@ -1,7 +1,8 @@
-*{
+* {
     font-family: 'Roboto', sans-serif;
-    
+
 }
+
 html,
 h1,
 h2,
@@ -10,15 +11,17 @@ h4,
 h5,
 h6 {
     color: #5c5b5b;
- 
-    
+
+
 }
+
 body {
-    background-color: #000;
+    background: #22272b !important;
     width: 100%;
     height: 100%;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
@@ -26,46 +29,55 @@ a{
 /*
     HEADER
  */
- header h1, .header__logo {
+header h1,
+.header__logo {
     text-decoration: none;
     margin-top: 13px;
- }
-header{
+}
+
+header {
     background: #262b30;
     height: 70px;
 }
-header *{
+
+header * {
     color: #ffffff;
 }
 
-header h1 a{
+header h1 a {
     color: #ffffff;
 }
-header h1 a:hover{
+
+header h1 a:hover {
     color: #ffffff;
 }
-header ul{
+
+header ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
     float: right;
 }
-header ul li{
+
+header ul li {
     float: left;
     position: relative;
 }
-header ul li a{
+
+header ul li a {
     display: block;
     font-size: 1.2rem;
     text-decoration: none;
     color: #ffffff;
     padding: 22px;
 }
+
 header ul li a:hover {
     background: #07bcc2;
     transition: 0.5s;
-    color:#000000;
+    color: #000000;
 }
+
 header ul li ul {
     position: absolute;
     top: 70px;
@@ -74,12 +86,15 @@ header ul li ul {
     display: none;
     z-index: 111;
 }
-header ul li:hover ul{
+
+header ul li:hover ul {
     display: block;
 }
+
 header ul li ul li {
     width: 100%;
 }
+
 header ul li ul li a {
     padding: 10px;
     margin-left: 43px;
@@ -87,6 +102,77 @@ header ul li ul li a {
     color: #008489;
 }
 
-main {
-    background-color: #22272b  ;
+
+
+.main-content h2 {
+    margin: 30px 0;
+    color: #ffffff;
+}
+
+.main-content .post {
+    margin-bottom: 30px;
+}
+
+.main-content .post_text {
+    background: #2b3136;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.main-content .post_text h3 {
+    margin: 14px 0;
+}
+
+.post_text>h3>a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.main-content .post_text h3 a:hover {
+
+    color: #5c5b5b;
+}
+
+.main-content .post_text i {
+    margin: 0px 14px 14px 0;
+}
+
+/*
+    Sidebar
+ */
+.search {
+    margin-top: 98px;
+}
+
+.sidebar .section {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+.sidebar .topics ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border-top: 1px solid #e0e0e0;
+}
+
+.sidebar .topics ul li a {
+    display: block;
+    padding: 15px 0px 15px 0px;
+    border-bottom: 1px solid #e0e0e0;
+    transition: all 0.3s;
+    text-decoration: none;
+    font-weight: 500;
+    color: #5c5b5b;
+    font-size: 1.2em;
+}
+
+.sidebar .topics ul li a:hover {
+    padding-left: 10px;
+    transition: all 0.3s;
+    color: #000;
 }
